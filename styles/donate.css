@@ -6,3 +6,41 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
+.text-primary {
+  color: #ff5959;
+}
+
+.btn-primary {
+  padding: 16px 12px;
+  color: #fff;
+  background: #ff5959;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  /* max-width: 1440px; */
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+  background-image: url("../images/Rectangle.png");
+  background-size: cover;
+}
+
+.header-section {
+  padding: 175px 307px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.header-subtitle {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
