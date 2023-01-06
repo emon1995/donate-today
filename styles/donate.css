@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Open+Sans:wght@400;700;800&family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Lobster&family=Manrope&display=swap");
 
 * {
   margin: 0;
@@ -236,4 +236,29 @@
   font-weight: 500;
   border: none;
   margin-left: -5px;
+}
+
+/* Footer style */
+.footer {
+  text-align: center;
+  background: #0b0d17;
+  padding: 43px;
+}
+
+.footer-section {
+  margin: auto;
+}
+
+.footer-title {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 36px;
+  color: #ff5959;
+  margin-bottom: 24px;
+}
+
+.footer-subtitle {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  color: #d9dbe1;
 }
