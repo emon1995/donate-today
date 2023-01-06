@@ -25,12 +25,16 @@
 .header {
   text-align: center;
   /* max-width: 1440px; */
-  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
-  background-image: url("../images/Rectangle.png");
-  background-size: cover;
+  /* background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%); */
+  /* background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)),
+    url("../images/Rectangle.png");
+  background-size: cover; */
 }
 
 .header-section {
+  background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)),
+    url("../images/Rectangle.png");
+  background-size: cover;
   padding: 175px 307px;
 }
 
