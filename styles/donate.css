@@ -83,6 +83,10 @@
 }
 
 .donate .item {
+  border: 2px solid #fafafa;
+}
+
+.donate .item:hover {
   color: #ff5959;
   background: #ffeeee;
   border: 2px solid #ff5959;
@@ -97,4 +101,52 @@
 
 .donate hr {
   margin-bottom: 30px;
+}
+
+/* Plan styles */
+.plan {
+}
+
+.plan-title {
+  margin-bottom: 20px;
+}
+
+.plan-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.plan-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  margin: 0 157px;
+}
+
+.plan-item {
+  padding: 54px 22px;
+}
+
+.plan-section .item1 {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+
+.plan-section .item2 {
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+}
+
+.plan-section .item3 {
+  background: #fff4d6;
+  border-radius: 5px;
+}
+
+.plan-item-title {
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+
+.plan-item-subtitle {
+  color: #707070;
 }
